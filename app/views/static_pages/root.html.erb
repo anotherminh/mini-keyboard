@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="title">Mini Keyboard</div>
+  <div class="subtitle">Press keys a-k to play</div>
+  <div id="widget"></div>
+  <div id="recorder"></div>
+</div>
+
+
+<script type="text/javascript">
+  React.render(React.createElement(Recorder), document.getElementById('recorder'));
+  React.render(React.createElement(Organ), document.getElementById('widget'));
+</script>
