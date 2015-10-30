@@ -22,3 +22,17 @@ button {
   border: transparent;
   background: transparent;
 }
+
+button:focus {
+  outline: 0px solid transparent;
+  background: wheat;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  margin: 5px;
+}

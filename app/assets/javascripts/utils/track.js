@@ -46,7 +46,7 @@
           clearInterval(this.interval);
           this.interval = null;
         }
-      }.bind(this), 50);
+      }.bind(this), 10);
     }
   };
 })(this);
